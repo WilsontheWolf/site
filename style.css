@@ -1,0 +1,39 @@
+body {
+    background: black;
+    color: #d9d9d9;
+    margin: 2em auto;
+    max-width: 77em;
+}
+
+a {
+    color: #00a2e7;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-card {
+    background: #282828;
+    width: 15rem;
+    height: 13rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    
+}
+
+.project-card > h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 2px;
+}

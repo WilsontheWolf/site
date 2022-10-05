@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>WilsontheWolf's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <meta property="og:title" content="WilsontheWolf's Website" />
+    <meta property="og:description" content="My website for my stuff." />
+    <meta property="og:color" content="#ffff00" />
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <!-- SVG's Credit to https://feathericons.com/ -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+
+        <symbol id="star" viewBox="0 0 24 24">
+            <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+            </polygon>
+        </symbol>
+
+        <symbol id="fork" viewBox="0 0 24 24">
+            <circle cx="18" cy="18" r="3"></circle>
+            <circle cx="6" cy="6" r="3"></circle>
+            <circle cx="6" r="3" cy="20"></circle>
+            <path d="M6 17V9a9 15 0 0 0 9 9"></path>
+        </symbol>
+
+        <symbol id="clock" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+        </symbol>
+
+    </svg>
+    
+    <div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#d9d9d9"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star">
+
+        </svg>
+    </div>
+
+    <!-- I swear I was making a super cool thing with JS and whatnot but it was getting too complex -->
+    <h1>WilsontheWolf's Website</h1>
+    <p>Checkout my <a href="https://github.com/WilsontheWolf">Github</a>.</p>
+    <h2>Projects:</h2>
+    <div id="projects">
+        <p>Loading<span id="loading-dots">...</span></p>
+    </div>
+    <noscript>
+        <p>Javascript is disabled. Please <a href="https://www.enable-javascript.com/">enable javascript</a> or checkout
+            my <a href="https://github.com/WilsontheWolf">GitHub</a> to see my projects.</p>
+        <style>
+            #projects {
+                display: none;
+            }
+        </style>
+    </noscript>
+    <h2>Note:</h2>
+    <p>My website is still under construction. I'm still working on it.</p>
+    <p>It's mostly just this website was much better than my old one.</p>
+</body>
+
+</html>
