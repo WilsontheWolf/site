@@ -24,9 +24,16 @@ const makeProjectCard = (project) => {
     const projectCard = document.createElement('div');
     projectCard.classList.add('project-card');
 
+    const projectLink = document.createElement('a');
+    projectLink.href = project.html_url;
+    projectLink.target = '_blank';
+    projectLink.className = 'project-title';
+    projectLink.innerText = project.name;
+
     const projectTitle = document.createElement('h3');
-    projectTitle.innerText = project.name;
+    projectTitle.appendChild(projectLink);
     projectCard.appendChild(projectTitle);
+    
 
     const projectDescription = document.createElement('p');
     projectDescription.innerText = project.description;
@@ -39,12 +46,7 @@ const makeProjectCard = (project) => {
     const projectTime = document.createElement('p');
     projectTime.innerHTML = `<svg class="icon"><use xlink:href="#clock" /></svg> ${new Date(project.pushed_at).toLocaleDateString()}`;
     projectCard.appendChild(projectTime);
-
-    const projectLink = document.createElement('a');
-    projectLink.href = project.html_url;
-    projectLink.innerText = 'View Source';
-    projectCard.appendChild(projectLink);
-
+    
     return projectCard;
 };
 

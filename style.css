@@ -30,6 +30,16 @@ a {
     padding: 0;
 }
 
+.project-title {
+    color: #d9d9d9;
+    text-decoration: none;
+}
+
+.project-title:hover {
+    color: #00a2e7;
+    text-decoration: underline;
+}
+
 .icon {
     width: 1em;
     height: 1em;
