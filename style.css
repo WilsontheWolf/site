@@ -1,8 +1,9 @@
 body {
-    background: black;
+    background: #1e1f2f;
     color: #d9d9d9;
     margin: 2em auto;
     max-width: 77em;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 }
 
 a {
@@ -12,11 +13,11 @@ a {
 #projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .project-card {
-    background: #282828;
+    background: linear-gradient(to bottom, #2b2d3e 0%, #262835 100%);
     width: 15rem;
     height: 13rem;
     padding: 1rem;
