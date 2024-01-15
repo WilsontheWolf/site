@@ -6,6 +6,10 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 }
 
+#main-container {
+	margin: 10px;
+}
+
 a {
     color: #00a2e7;
 }
